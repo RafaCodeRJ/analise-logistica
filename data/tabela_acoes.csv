@@ -1,0 +1,11 @@
+ID,Ação,Prioridade,Impacto,Esforço,Prazo,Status
+A1,Renegociar contratos,Urgente,45000,40,30,Iniciado
+A2,Controle combustível,Urgente,30000,70,30,Pendente
+A3,Otimizar rotas,Urgente,22000,50,30,Pendente
+A4,Manutenção preventiva,Urgente,18000,60,30,Pendente
+A5,Treinar motoristas,Urgente,12000,30,30,Pendente
+A6,Sistema previsão,Prioritária,35000,85,60,Planejado
+A7,Expandir frota,Prioritária,50000,90,90,Planejado
+A8,Diversificar clientes,Prioritária,50000,65,90,Planejado
+A9,Renovar frota,Planejada,80000,95,180,Planejado
+A10,ERP integrado,Planejada,40000,90,180,Planejado
