@@ -1,0 +1,130 @@
+feature,importance,model
+Peso_por_KM,1471.8449499956448,Linear Regression
+roll_mean_CustoKM_7d,200.0955488697362,Linear Regression
+Eficiencia_Entrega,193.86687072234727,Linear Regression
+Prop_Manutencao,74.91964744546333,Linear Regression
+Prop_Motorista,64.78003568193164,Linear Regression
+roll_mean_CustoKM_30d,52.56579782922034,Linear Regression
+Custo/KM,28.96774402077979,Linear Regression
+Custo_por_KM,28.96774401194723,Linear Regression
+Frete_por_KM,10.998278876556434,Linear Regression
+Prop_Combustivel,10.139611763487672,Linear Regression
+lag_CustoKM_7d,8.967219478521729,Linear Regression
+lag_CustoKM_1d,5.958213917237402,Linear Regression
+Peso_por_Entrega,4.366518434276362,Linear Regression
+Trimestre,2.7121910705762193,Linear Regression
+IsMonthStart,1.8054577095849622,Linear Regression
+IsWeekend,1.4740197407322564,Linear Regression
+IsMonthEnd,0.9638414547556449,Linear Regression
+MesNum,0.92570280897235,Linear Regression
+Frete_por_Entrega,0.30419007343328935,Linear Regression
+DiaSemana,0.19233941484912387,Linear Regression
+Custo_por_Entrega,0.18191429575878118,Linear Regression
+roll_mean_Entregas_30d,0.14737933037025505,Linear Regression
+Custo_por_Ton,0.08953069300027378,Linear Regression
+roll_mean_Entregas_7d,0.06157054622959174,Linear Regression
+DiaMes,0.049948388000134826,Linear Regression
+Custo Motorista,0.0389501125372622,Linear Regression
+Peso (ton),0.031685872194304666,Linear Regression
+Custo Manutenção,0.028842726824584098,Linear Regression
+Custo Total,0.027298176011735745,Linear Regression
+lag_Entregas_1d,0.027112606912406863,Linear Regression
+Frete,0.02648093540608706,Linear Regression
+roll_mean_CustoTotal_7d,0.02453095300526224,Linear Regression
+KM/Entrega,0.01810372057515757,Linear Regression
+Custo Combustível,0.017190756415951643,Linear Regression
+roll_mean_CustoTotal_30d,0.00817384923653074,Linear Regression
+roll_mean_KM_7d,0.003080658464796258,Linear Regression
+lag_CustoTotal_7d,0.0022718813701775153,Linear Regression
+lag_CustoTotal_1d,0.002056000791342574,Linear Regression
+lag_Entregas_7d,0.0018221506166835792,Linear Regression
+Entregas,0.0017167052962682252,Linear Regression
+Entregas/Dia,0.0017167032487181114,Linear Regression
+roll_mean_KM_30d,0.001055984407977749,Linear Regression
+KM Percorridos,1.4726248538168207e-05,Linear Regression
+Frete,0.8250035073616095,Random Forest
+Custo Total,0.13060883108028548,Random Forest
+Custo Manutenção,0.004112557287797547,Random Forest
+roll_mean_CustoTotal_7d,0.002563829725049426,Random Forest
+Custo_por_Ton,0.002347439558626657,Random Forest
+Custo Combustível,0.0023450511441350814,Random Forest
+lag_CustoKM_1d,0.0015638532992155022,Random Forest
+Custo Motorista,0.0015190168085251123,Random Forest
+DiaMes,0.001393994077158716,Random Forest
+lag_CustoKM_7d,0.0013756517483811373,Random Forest
+lag_CustoTotal_1d,0.0013226134484994466,Random Forest
+roll_mean_Entregas_7d,0.0013203975006789638,Random Forest
+lag_CustoTotal_7d,0.0012326365623837993,Random Forest
+roll_mean_CustoKM_30d,0.0012233304917468513,Random Forest
+Custo_por_Entrega,0.0012149166338636932,Random Forest
+Prop_Combustivel,0.0012093431067366621,Random Forest
+lag_Entregas_1d,0.0011887247787177532,Random Forest
+roll_mean_KM_7d,0.0011853662015481996,Random Forest
+Peso_por_KM,0.001166216054350578,Random Forest
+roll_mean_Entregas_30d,0.001153149831413061,Random Forest
+Custo/KM,0.001113676031829352,Random Forest
+Peso (ton),0.0011018555425135307,Random Forest
+Prop_Manutencao,0.0010621876678983957,Random Forest
+roll_mean_KM_30d,0.0009969050844279596,Random Forest
+Frete_por_KM,0.0009843875369620184,Random Forest
+lag_Entregas_7d,0.0009603206860077082,Random Forest
+roll_mean_CustoKM_7d,0.0008767876683152869,Random Forest
+Prop_Motorista,0.0008365542456074842,Random Forest
+Frete_por_Entrega,0.0008233155564993704,Random Forest
+roll_mean_CustoTotal_30d,0.0008118487477940244,Random Forest
+Eficiencia_Entrega,0.0007571987685214387,Random Forest
+MesNum,0.000707316275433505,Random Forest
+KM Percorridos,0.0006963120431974059,Random Forest
+Peso_por_Entrega,0.0006782200756463488,Random Forest
+Custo_por_KM,0.0005709259419780846,Random Forest
+DiaSemana,0.0004919035524490969,Random Forest
+Entregas,0.0004833941015086543,Random Forest
+KM/Entrega,0.0004547510940789689,Random Forest
+Entregas/Dia,0.00033730516852102215,Random Forest
+Trimestre,9.865024661626059e-05,Random Forest
+IsWeekend,5.9386637327483184e-05,Random Forest
+IsMonthEnd,3.240870979010067e-05,Random Forest
+IsMonthStart,1.396191635339156e-05,Random Forest
+Frete,0.8248029342185852,Gradient Boosting
+Custo Total,0.15989166308656458,Gradient Boosting
+lag_CustoKM_1d,0.0029926010922246807,Gradient Boosting
+roll_mean_CustoKM_30d,0.0014271309326790492,Gradient Boosting
+Custo_por_Ton,0.0009041309860755619,Gradient Boosting
+Custo Manutenção,0.0007909685765408095,Gradient Boosting
+Custo Combustível,0.000733154449075185,Gradient Boosting
+Peso (ton),0.0006511441116771757,Gradient Boosting
+roll_mean_KM_7d,0.0006510891052627961,Gradient Boosting
+DiaMes,0.0006409431539112517,Gradient Boosting
+Frete_por_KM,0.0006063376948919789,Gradient Boosting
+Prop_Combustivel,0.0005968611742884903,Gradient Boosting
+roll_mean_Entregas_30d,0.0005326354885636997,Gradient Boosting
+lag_Entregas_1d,0.0005047548453951888,Gradient Boosting
+Prop_Motorista,0.0004869244513354137,Gradient Boosting
+lag_CustoKM_7d,0.00045509636057235864,Gradient Boosting
+Custo Motorista,0.0004174305183479347,Gradient Boosting
+roll_mean_CustoKM_7d,0.00038687922202289033,Gradient Boosting
+roll_mean_CustoTotal_7d,0.0003668237656035913,Gradient Boosting
+lag_CustoTotal_7d,0.000255206597833845,Gradient Boosting
+lag_CustoTotal_1d,0.00019791461617102261,Gradient Boosting
+Custo_por_Entrega,0.0001675882046013956,Gradient Boosting
+roll_mean_Entregas_7d,0.0001528877936449983,Gradient Boosting
+KM Percorridos,0.00012257923850335213,Gradient Boosting
+KM/Entrega,0.00011675124944105831,Gradient Boosting
+Peso_por_KM,0.00011298125485845627,Gradient Boosting
+Entregas,9.983968907887738e-05,Gradient Boosting
+roll_mean_KM_30d,9.755202829687295e-05,Gradient Boosting
+Entregas/Dia,9.307253068413476e-05,Gradient Boosting
+Frete_por_Entrega,9.09372222990657e-05,Gradient Boosting
+roll_mean_CustoTotal_30d,8.612262413918287e-05,Gradient Boosting
+Custo/KM,8.456255467959787e-05,Gradient Boosting
+DiaSemana,8.29690266462805e-05,Gradient Boosting
+lag_Entregas_7d,7.384136237123081e-05,Gradient Boosting
+Trimestre,7.279877408032553e-05,Gradient Boosting
+Prop_Manutencao,7.128636608862526e-05,Gradient Boosting
+MesNum,6.831447262037656e-05,Gradient Boosting
+Peso_por_Entrega,6.713668020233157e-05,Gradient Boosting
+Eficiencia_Entrega,3.100401818675309e-05,Gradient Boosting
+Custo_por_KM,1.4831302626552143e-05,Gradient Boosting
+IsWeekend,2.6882994108206744e-07,Gradient Boosting
+IsMonthEnd,2.7257561394339753e-08,Gradient Boosting
+IsMonthStart,2.3071825200747236e-08,Gradient Boosting

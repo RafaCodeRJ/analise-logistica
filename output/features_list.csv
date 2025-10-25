@@ -1,0 +1,44 @@
+feature
+Custo Combustível
+Custo Manutenção
+Custo Motorista
+Custo Total
+Custo/KM
+Custo_por_Entrega
+Custo_por_KM
+Custo_por_Ton
+DiaMes
+DiaSemana
+Eficiencia_Entrega
+Entregas
+Entregas/Dia
+Frete
+Frete_por_Entrega
+Frete_por_KM
+IsMonthEnd
+IsMonthStart
+IsWeekend
+KM Percorridos
+KM/Entrega
+MesNum
+Peso (ton)
+Peso_por_Entrega
+Peso_por_KM
+Prop_Combustivel
+Prop_Manutencao
+Prop_Motorista
+Trimestre
+lag_CustoKM_1d
+lag_CustoKM_7d
+lag_CustoTotal_1d
+lag_CustoTotal_7d
+lag_Entregas_1d
+lag_Entregas_7d
+roll_mean_CustoKM_30d
+roll_mean_CustoKM_7d
+roll_mean_CustoTotal_30d
+roll_mean_CustoTotal_7d
+roll_mean_Entregas_30d
+roll_mean_Entregas_7d
+roll_mean_KM_30d
+roll_mean_KM_7d
