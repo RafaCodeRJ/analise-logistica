@@ -35,7 +35,9 @@ analise-logistica/
 ├── 📁 output/                       
 │   ├── 📁 graficos/                
 │   ├── 📁 modelos/                 
-│   └── 📁 relatorios/              
+│   └── 📁 relatorios/
+|── .gitignore
+├── LICENSE           
 ├── main.py                          
 ├── requirements.txt                 
 └── README.md                        
