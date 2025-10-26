@@ -1,302 +1,255 @@
-# 📊 Análise Logística Profissional
+📊 Análise de Dados Logísticos - Sistema de Business Intelligence
+Sistema completo de análise de dados logísticos que combina análise exploratória, modelagem preditiva e dashboard executivo para otimização de operações de transporte e logística.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Production-success.svg)
+🚀 Visão Geral
+Este projeto implementa um pipeline completo de análise de dados para operações logísticas, desde a carga de dados até a geração de insights estratégicos e recomendações baseadas em machine learning.
 
-Sistema completo de análise de dados logísticos com visualizações interativas, modelagem preditiva e geração de insights acionáveis.
+📈 Principais Funcionalidades
+- Análise Exploratória Completa: Estatísticas descritivas, composição de custos, tendências temporais
 
----
+- Modelagem Preditiva: Previsão de margens com múltiplos algoritmos de machine learning
 
-## 🎯 Objetivo
+- Dashboard Executivo: Visualização de KPIs e métricas de desempenho
 
-Este projeto fornece uma análise abrangente de operações logísticas, identificando:
-- 📈 Tendências de rentabilidade
-- 💰 Oportunidades de redução de custos
-- 🚚 Eficiência operacional
-- 🎯 Ações prioritárias para otimização
+🏗️ Estrutura do Projeto
 
----
-
-## 📁 Estrutura do Projeto
-
-```
 analise-logistica/
-│
-├── data/                          # Dados de entrada
-│   ├── dados_logistica.csv       # Dados diários
-│   ├── dados_mensais.csv         # Dados mensais consolidados
-│   └── tabela_acoes.csv          # Plano de ações
-│
-├── notebooks/                     # Notebooks Jupyter
+├── 📁 data/                          # Dados do projeto
+│   ├── dados_logistica.csv          # Dados diários de operações
+│   ├── dados_mensais.csv            # Dados mensais consolidados
+│   └── tabela_acoes.csv             # Ações estratégicas propostas
+├── 📁 src/                          # Código fonte
+│   ├── data_loader.py              # Carregamento e preparação de dados
+│   ├── analise_exploratoria.py     # Análise exploratória completa
+│   ├── analise_preditiva.py        # Modelagem e previsão
+│   └── dashboard_executivo.py      # Dashboard e relatórios
+├── 📁 notebooks/                   # Jupyter notebooks
 │   ├── 01_analise_exploratoria.ipynb
-│   ├── 02_analise_preditiva.ipynb
+│   ├── 02_modelagem_preditiva.ipynb
 │   └── 03_dashboard_executivo.ipynb
-│
-├── src/                          # Código-fonte Python
-│   ├── __init__.py
-│   ├── data_loader.py           # Carregamento de dados
-│   ├── analyzer.py              # Análises e KPIs
-│   ├── visualizer.py            # Visualizações
-│   └── reporter.py              # Geração de relatórios
-│
-├── outputs/                      # Resultados gerados
-│   ├── resumo_executivo.json
-│   └── relatorio_analise.md
-│
-├── tests/                        # Testes unitários
-│   └── test_modules.py
-│
-├── main.py                       # Script principal
-├── criar_notebooks_profissional.py  # Gerador de notebooks
-├── requirements.txt              # Dependências
-├── setup.py                      # Instalação do pacote
-├── .gitignore
-└── README.md                     # Este arquivo
-```
+├── 📁 output/                      # Resultados gerados
+│   ├── 📁 graficos/               # Visualizações e gráficos
+│   ├── 📁 modelos/                # Modelos treinados
+│   └── 📁 relatorios/             # Relatórios executivos
+├── main.py                        # Script principal
+├── requirements.txt               # Dependências do projeto
+└── README.md                     # Documentação
 
----
+📋 Pré-requisitos
+- Python 3.8+
+ -pip (gerenciador de pacotes Python)
 
-## 🚀 Instalação
 
-### Pré-requisitos
-
-- Python 3.8 ou superior
-- pip (gerenciador de pacotes Python)
-
-### Passo a Passo
-
-1. **Clone o repositório:**
-```bash
-git clone https://github.com/RafaCodeRJ/analise-logistica.git
+⚙️ Instalação
+- Clone o repositório
+bash
+git clone https://github.com/seu-usuario/analise-logistica.git
 cd analise-logistica
-```
 
-2. **Crie um ambiente virtual (recomendado):**
-```bash
+
+Crie um ambiente virtual (recomendado):
+bash
 python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# ou
+venv\Scripts\activate     # Windows
 
-# Windows
-venv\Scripts\activate
 
-# Linux/Mac
-source venv/bin/activate
-```
-
-3. **Instale as dependências:**
-```bash
+Instale as dependências:
+bash
 pip install -r requirements.txt
-```
 
-4. **Instale o pacote (opcional):**
-```bash
-pip install -e .
-```
 
----
-
-## 💻 Uso
-
-### 1. Análise Rápida (Script Principal)
-
-Execute o script principal para análise completa:
-
-```bash
+🎯 Como Executar
+Execução Completa:
+bash
 python main.py
-```
+Execução por Módulos
 
-Este script irá:
-- ✅ Carregar e validar os dados
-- ✅ Calcular KPIs principais
-- ✅ Analisar custos e rentabilidade
-- ✅ Gerar visualizações
-- ✅ Criar relatórios
 
-### 2. Notebooks Jupyter (Análise Detalhada)
+Análise Exploratória:
+bash
+python -c "
+from src.analise_exploratoria import executar_analise_exploratoria
+from src.data_loader import DataLoader
 
-#### Gerar os notebooks:
-```bash
-python criar_notebooks.py
-```
-
-#### Executar os notebooks:
-```bash
-jupyter notebook
-```
-
-Navegue até a pasta `notebooks/` e execute na ordem:
-1. **01_analise_exploratoria.ipynb** - Análise exploratória completa
-2. **02_analise_preditiva.ipynb** - Modelagem preditiva
-3. **03_dashboard_executivo.ipynb** - Dashboard executivo
-
-### 3. Uso Programático
-
-```python
-from src import DataLoader, LogisticsAnalyzer, LogisticsVisualizer
-
-# Carregar dados
 loader = DataLoader('data')
-dados_log, dados_men, tab_acoes = loader.load_all_data()
+dados_logistica, dados_mensais, tabela_acoes = loader.carregar_dados()
+executar_analise_exploratoria(dados_logistica, dados_mensais, tabela_acoes)
+"
 
-# Análise
-analyzer = LogisticsAnalyzer(dados_log)
-kpis = analyzer.calculate_kpis()
-print(f"Margem média: {kpis['margem_media']:.2f}%")
 
-# Visualização
-viz = LogisticsVisualizer(dados_log)
-viz.plot_margin_evolution()
-```
+Análise Preditiva:
+bash
+python -c "
+from src.analise_preditiva import executar_analise_preditiva
+from src.data_loader import DataLoader
 
----
+loader = DataLoader('data')
+dados_logistica, dados_mensais, _ = loader.carregar_dados()
+executar_analise_preditiva(dados_logistica, dados_mensais)
+"
 
-## 📊 Principais Funcionalidades
 
-### 1. Análise de KPIs
-- Margem de lucro (média, mediana, tendências)
-- Custo por quilômetro
+Dashboard Executivo:
+bash
+python -c "
+from src.dashboard_executivo import DashboardExecutivo
+from src.data_loader import DataLoader
+
+loader = DataLoader('data')
+dados_logistica, dados_mensais, tabela_acoes = loader.carregar_dados()
+dashboard = DashboardExecutivo(dados_logistica, dados_mensais, tabela_acoes)
+dashboard.gerar_dashboard_completo()
+"
+
+📊 Resultados Gerados
+Gráficos e Visualizações:
+01_composicao_custos.png - Composição dos custos operacionais
+
+02_evolucao_temporal.png - Tendências temporais de margens e custos
+
+03_matriz_correlacao.png - Correlações entre variáveis
+
+04_analise_dispersao.png - Análise de dispersão
+
+05_importancia_features.png - Importância das variáveis no modelo
+
+06_previsoes_modelo.png - Comparação de previsões vs valores reais
+
+07_dashboard_executivo.png - Dashboard com KPIs principais
+
+08_acoes_propostas.png - Análise de ações estratégicas
+
+
+Modelos e Dados:
+- melhor_modelo.pkl - Melhor modelo de machine learning treinado
+
+- dados_logistica_features.csv - Dataset com features de engenharia
+
+- feature_importances.csv - Importância das variáveis
+
+
+Relatórios:
+- relatorio_executivo.txt - Relatório completo em texto
+
+- resumo_executivo.json - Resumo em formato JSON
+
+🤖 Modelos de Machine Learning
+O sistema treina e compara múltiplos algoritmos:
+
+- Linear Regression: Modelo linear como baseline
+
+- Random Forest: Ensemble com múltiplas árvores
+
+- Gradient Boosting: Algoritmo de boosting (geralmente o melhor desempenho)
+
+
+Performance Esperada:
+
+- R² (teste): > 0.95
+
+- RMSE: < 3.0%
+
+- MAE: < 2.5%
+
+
+📈 KPIs e Métricas
+
+Financeiros1:
+- Margem percentual média
+
+- Custo total operacional
+
+- Frete total
+
+- Composição de custos (combustível, manutenção, motorista)
+
+Operacionais:
+- KM percorridos
+
+- Número de entregas
+
+- Peso transportado
+
 - Eficiência operacional
-- Identificação de dias críticos
 
-### 2. Análise de Custos
-- Composição detalhada (combustível, manutenção, motorista)
-- Tendências temporais
-- Comparações e benchmarks
+Eficiência:
+- Custo por KM
 
-### 3. Visualizações
-- Evolução temporal de métricas
-- Distribuições estatísticas
-- Matrizes de correlação
-- Dashboards executivos
+- KM por entrega
 
-### 4. Modelagem Preditiva
-- Previsão de margens
-- Identificação de padrões
-- Análise de importância de features
-- Cenários de otimização
+- Frete por KM
 
-### 5. Plano de Ações
-- Priorização por impacto
-- Análise de ROI
-- Roadmap de implementação
 
----
+🎯 Insights Estratégicos
+O sistema gera automaticamente:
 
-## 📈 Resultados Esperados
+- Identificação de Dias Críticos: Dias com margem abaixo de 20%
 
-### KPIs Atuais (Exemplo)
-- **Margem Média:** 28.10%
-- **Custo/KM:** R$ 0.1859
-- **Dias Críticos:** 30.7% do período
-- **Potencial de Economia:** R$ 382.000
+- Oportunidades de Otimização: Redução de custos e aumento de eficiência
 
-### Insights Principais
-1. 🔴 **Tendência de queda na margem** nos últimos meses
-2. 💰 **Combustível representa ~48%** dos custos
-3. 📊 **Alta variabilidade** na rentabilidade diária
-4. 🎯 **Ações urgentes** podem gerar R$ 127.000 de economia
+- Cenários de Melhoria: Simulações de impacto de ações
 
----
+- Recomendações Prioritárias: Ações classificadas por impacto
 
-## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.8+** - Linguagem principal
-- **Pandas** - Manipulação de dados
-- **NumPy** - Computação numérica
-- **Matplotlib/Seaborn** - Visualizações
-- **Scikit-learn** - Machine Learning
-- **Jupyter** - Notebooks interativos
-- **nbformat** - Geração de notebooks
+🔧 Desenvolvimento
+Adicionando Novos Recursos:
+- Novas Features: Modifique analise_preditiva.py -> método engenharia_features()
 
----
+- Novos Gráficos: Adicione métodos em dashboard_executivo.py
 
-## 📝 Estrutura dos Dados
+- Novas Métricas: Extenda data_loader.py e analise_exploratoria.py
 
-### dados_logistica.csv
-Dados operacionais diários:
-- Data, Custos (combustível, manutenção, motorista)
-- KM percorridos, Entregas, Peso transportado
-- Frete, Margem, Métricas calculadas
 
-### dados_mensais.csv
-Consolidação mensal dos dados operacionais
+Estrutura de Dados Esperada
+Os arquivos CSV devem conter:
 
-### tabela_acoes.csv
-Plano de ações com:
-- ID, Descrição, Prioridade
-- Impacto financeiro, Esforço, Prazo, Status
+dados_logistica.csv:
 
----
+- csv
+Data,Custo Combustível,Custo Manutenção,Custo Motorista,Custo Total,KM Percorridos,Entregas,Peso (ton),Frete,Margem,Margem %,Custo/KM,Entregas/Dia,KM/Entrega,Mês
 
-## 🧪 Testes
+dados_mensais.csv:
+- csv
+Mês,Custo Total,Custo Combustível,Custo Manutenção,Custo Motorista,Frete,Margem,KM Percorridos,Entregas,Peso (ton),Margem %,Custo/KM
 
-Execute os testes unitários:
 
-```bash
-python -m pytest tests/
-```
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Ou teste módulos individuais:
 
-```bash
-python src/data_loader.py
-python src/analyzer.py
-python src/visualizer.py
-```
+👥 Contribuição
+Faça o fork do projeto
 
----
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
 
-## 📚 Documentação Adicional
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 
-- [Guia de Instalação](docs/INSTALLATION.md)
-- [Guia de Uso](docs/USAGE.md)
-- [Documentação da API](docs/API.md)
-- [Exemplos](docs/EXAMPLES.md)
-- [FAQ](docs/FAQ.md)
+Push para a branch (git push origin feature/AmazingFeature)
 
----
+Abra um Pull Request
 
-## 🤝 Contribuindo
 
-Contribuições são bem-vindas! Por favor:
+📞 Contato
+Rafael Coriolano Siqueira
 
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+Email: rcoriolanosiqueira@gmail.com
 
----
+LinkedIn: www.linkedin.com/in/rafael-coriolano
 
-## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+🚀 Próximos Passos:
+Implementar API para consumo em tempo real
 
----
+Adicionar análise de séries temporais
 
-## 👤 Autor
+Desenvolver dashboard web interativo
 
-**Análise Logística Profissional**
+Integrar com sistemas de gestão logística
 
-- GitHub: [@RafaCodeRJ](https://github.com/RafaCodeRJ)
-- LinkedIn: [Rafael Coriolano Siqueira](https://linkedin.com/in/rafael-coriolano)
+Implementar alertas automáticos
 
----
 
-## 🙏 Agradecimentos
-
-- Equipe de operações logísticas pelos dados
-- Comunidade Python pela excelente documentação
-- Contribuidores do projeto
-
----
-
-## 📞 Suporte
-
-Para questões e suporte:
-- 📧 Email: rcoriolanosiqueira@gmail.com
-- 💬 Issues: [GitHub Issues](https://github.com/RafaCodeRJ/analise-logistica/issues)
-
----
-
-**⭐ Se este projeto foi útil, considere dar uma estrela no GitHub!**
+⭐ Se este projeto foi útil, considere dar uma estrela no repositório!
