@@ -219,9 +219,9 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ---
 
 ## 📞 Contato
-**Autor:** Seu Nome  
-📧 Email: [meuemail@gmail.com](mailto:meuemail@gmail.com)  
-🔗 LinkedIn: [www.linkedin.com/in/xxxxxxx](https://www.linkedin.com/in/xxxxxxx)  
+Autor: Rafael Coriolano Siqueira
+📧 Email: rcoriolanosiqueira@gmail.com 
+🔗 LinkedIn: www.linkedin.com/in/rafael-coriolano
 
 ---
 
