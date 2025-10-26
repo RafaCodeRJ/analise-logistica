@@ -1,0 +1,93 @@
+
+================================================================================
+RELATÓRIO EXECUTIVO - ANÁLISE LOGÍSTICA
+================================================================================
+
+Período de Análise: 01/01/2024 a 30/09/2024
+Data do Relatório: 25/10/2025 14:06
+
+================================================================================
+1. RESUMO EXECUTIVO
+================================================================================
+
+A análise dos dados logísticos revela uma operação com margem média de 28.10%,
+gerando uma margem total de R$ 249,612.78 no período analisado.
+
+Principais Indicadores:
+- Frete Total: R$ 811,284.42
+- Custo Total: R$ 561,671.64
+- Margem Total: R$ 249,612.78
+- Margem Percentual Média: 28.10%
+
+================================================================================
+2. ANÁLISE OPERACIONAL
+================================================================================
+
+Volume de Operações:
+- Total de KM Percorridos: 3,118,903 km
+- Total de Entregas: 31,137
+- Peso Total Transportado: 17,784.10 toneladas
+
+Médias Diárias:
+- Entregas por Dia: 114
+- Frete por Dia: R$ 2,960.89
+- Custo por Dia: R$ 2,049.90
+
+================================================================================
+3. ANÁLISE DE CUSTOS
+================================================================================
+
+Composição dos Custos:
+- Combustível: R$ 273,924.44 (48.8%)
+- Manutenção: R$ 111,196.38 (19.8%)
+- Motorista: R$ 176,550.83 (31.4%)
+
+O combustível representa o maior componente de custo (48.8%),
+seguido pelos custos com motoristas (31.4%) e manutenção (19.8%).
+
+================================================================================
+4. INDICADORES DE EFICIÊNCIA
+================================================================================
+
+- Custo por KM: R$ 0.19
+- Frete por KM: R$ 0.26
+- KM por Entrega: 103.52 km
+
+================================================================================
+5. RECOMENDAÇÕES ESTRATÉGICAS
+================================================================================
+
+Com base na análise realizada, recomenda-se:
+
+1. OTIMIZAÇÃO DE CUSTOS DE COMBUSTÍVEL
+   - Implementar sistema de monitoramento de consumo
+   - Treinar motoristas em direção econômica
+   - Avaliar rotas alternativas mais eficientes
+
+2. MELHORIA DA MARGEM OPERACIONAL
+   - Renegociar contratos com margens abaixo da média
+   - Implementar precificação dinâmica baseada em distância e peso
+   - Reduzir dias com margem negativa
+
+3. EFICIÊNCIA OPERACIONAL
+   - Otimizar rotas para reduzir KM/Entrega
+   - Implementar manutenção preventiva para reduzir custos
+   - Aumentar taxa de ocupação dos veículos
+
+4. GESTÃO DE PERFORMANCE
+   - Estabelecer metas de margem mínima por operação
+   - Monitorar KPIs diariamente
+   - Implementar sistema de alertas para anomalias
+
+================================================================================
+6. PRÓXIMOS PASSOS
+================================================================================
+
+- Implementar as ações urgentes identificadas
+- Estabelecer sistema de monitoramento contínuo
+- Revisar precificação de serviços
+- Investir em tecnologia para otimização de rotas
+
+================================================================================
+FIM DO RELATÓRIO
+================================================================================
